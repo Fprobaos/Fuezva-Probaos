@@ -4,8 +4,14 @@
 @import './footer.scss';
 
 body{
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(117,111,97,1) 50%, rgba(0,0,0,1) 100%);
+    @include style( linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(117,111,97,1) 50%, rgba(0,0,0,1) 100%), $primary-color )
+    
 }
 
+
+@mixin style($backround, $typography) {
+    background: $backround;
+    color: $typography ;
+    
+}
 
