@@ -13,87 +13,91 @@
     </head>
 
         <body>
-            <header>
+            <div class="container-fluid p-0">
 
-                <h1 class="titulo">CONTACTO</h1>
-
-                <nav>
-                    <ul class="menu animate__animated animate__backInLeft">
-                        <li><a class="links" href="../index.html">INICIO</a></li>
-                        <li><a class="links" href="./tablasposiciones.html">TABLAS POSICIONES</a></li>
-                        <li><a class="links" href="./inscribite.html">¡INSCRIBITE!</a></li>
-                        <li><a class="links" href="./dondeestamos.html">¿DONDÉ ESTAMOS?</a></li>
-                        <li><a class="links" href="./contacto.html">CONTACTO</a></li>
-                    </ul>
-                </nav>    
-
-            </header>
+                <header class="row">
+    
+                    <div class="col-12">
+    
+                         <h1 class="titulo">CONTACTO</h1>
+    
+                        <nav>
+    
+                            <ul class="menu animate__animated animate__backInLeft">
+                                <li><a class="links" href="../index.html">INICIO</a></li>
+                                <li><a class="links" href="./pages/tablasposiciones.html">TABLAS POSICIONES</a></li>
+                                <li><a class="links" href="./pages/inscribite.html">¡INSCRIBITE!</a></li>
+                                <li><a class="links" href="./pages/dondeestamos.html">¿DONDÉ ESTAMOS?</a></li>
+                                <li><a class="links" href="./pages/contacto.html">CONTACTO</a></li>
+                            </ul>
+    
+                        </nav>  
+    
+                    </div>
+    
+                </header>
             
-            <form action="" method="get" enctype="multipart/form-data" class="formulario">
-                <fieldset>
-                    <legend> Contacto </legend>
-
-                    <br>
-
-                    <label for="Nombre">Nombre</label>
-                    <br>
-                    <input type="text" name="Nombre" id="Nombre">
-
-                    <br><br>
-
-                    <label for="Apellido">Apellido</label>
-                    <br>
-                    <input type="text" name="Apellido" id="Apellido">
+                <form action="" method="get" enctype="multipart/form-data" class="formulario">
                     
-                    <br><br>
+                    <fieldset>
 
-                    <label for="Sexo">Sexo</label>
-                    <br>
-                    <select name="" id="Sexo">            
-                        <option value="Masculino"> M </option>  
-                        <option value="Femenino"> F </option>
-                    </select>
+                        <br>
 
-                    <br><br>
+                        <label for="Nombre" class="texto">Nombre</label>
+                        <br>
+                        <input type="text" name="Nombre" id="Nombre">
 
-                    <label for="Email">Email</label>
-                    <br>
-                    <input type="email" name="email" id="email">
+                        <br><br>
 
-                    <br><br> 
-                
-                    <legend> Consultas:</legend>
-                    <textarea name="Consultas" id="" cols="30" rows="10"></textarea>
+                        <label for="Apellido" class="texto">Apellido</label>
+                        <br>
+                        <input type="text" name="Apellido" id="Apellido">
+                        
+                        <br><br>
 
-                    <br><br><br><br><br>
+                        <label for="Sexo" class="texto">Sexo</label>
+                        <br>
+                        <select name="" id="Sexo">            
+                            <option value="Masculino"> M </option>  
+                            <option value="Femenino"> F </option>
+                        </select>
 
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Resetear Valores">
+                        <br><br>
+
+                        <label for="Email" class="texto">Email</label>
+                        <br>
+                        <input type="email" name="email" id="email">
+
+                        <br><br> 
+                    
+                        <legend> Consultas:</legend>
+                        <textarea name="Consultas" id="" cols="30" rows="10"></textarea>
+
+                        <br><br><br><br><br>
+
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Resetear Valores">
 
 
-                </fieldset>
-            </form>
+                    </fieldset>
 
-            <div class="row">
-                
-                <div class="col-lg-12">
+                </form>
 
-                    <footer class="info">
+                <footer class="row">
 
-                        <div>
-                            <p class="texto">Redes Sociales</p>
-                            <p class="texto">Facebook : Fuezva Futbol</p>
-                            <p class="texto">Instagram : Fuezvafutbol</p>
-                            <p class="texto">E-Mail : Fuezvafutbol@gmail.com</p>
-                            <p class="texto">Telefono : 4563 - 6523</p> 
-                        </div>
+                    <div class="col-lg-12 info">
 
+                        <p class="texto">Redes Sociales</p>
+                        <p class="texto">Facebook : Fuezva Futbol</p>
+                        <p class="texto">Instagram : Fuezvafutbol</p>
+                        <p class="texto">E-Mail : Fuezvafutbol@gmail.com</p>
+                        <p class="texto">Telefono : 4563 - 6523</p>
                         <img src="../assets/logo.jpg" alt="" class="logo">
 
-                    </footer>
+                    </div>
 
-                </div>
-            
+                </footer>
+
             </div>
             
         </body>
