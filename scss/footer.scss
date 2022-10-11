@@ -1,0 +1,43 @@
+footer{
+    div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 15px;
+    text-align: center;
+    color: black;   
+    font-weight: bold;
+    padding: 10px;
+    line-height: 1px;
+    }
+
+    img{
+        width: 150px;
+    height: 150px;
+    border: 5px solid #F9ECCC;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px; 
+    align-self: center;
+    }
+    
+    
+}
+
+@media(min-width:1024px){
+    footer{
+        padding: 50px;
+
+        p{
+            line-height: 30px;
+        }
+    }
+}
