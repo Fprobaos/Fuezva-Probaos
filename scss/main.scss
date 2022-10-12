@@ -45,6 +45,8 @@ section{
     }
 
 
+
+
 @media(min-width:1024px){
 
     p{
@@ -63,6 +65,7 @@ section{
     margin: 50px;
     height: 300px;
     width: 500px;
+    padding: 0px;
     }
 
     div{
@@ -75,4 +78,59 @@ section{
 
 
 
+}
+
+
+form{
+
+    fieldset{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        
+        textarea{
+            margin-bottom: 20px;
+        }
+
+        .fondo{
+            background-color: #848FA5;
+        }
+    
+    }
+    
+    
+    .texto{
+        font-family:'Times New Roman', Times, serif;
+        font-size: 23px;
+        padding: 15px;
+        text-align: center;
+        color: $txt;
+    }
+}
+
+@media(min-width:1024px){
+form{
+
+    fieldset{
+        display: flex;
+        flex-direction: column;
+        padding: 300px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        
+        textarea{
+            margin-bottom: 20px;
+        }
+    
+    }
+    
+    
+    .texto{
+        font-family:'Times New Roman', Times, serif;
+        font-size: 23px;
+        padding: 15px;
+        text-align: center;
+        color: $txt;
+    }
+    }
 }

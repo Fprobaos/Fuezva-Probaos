@@ -89,10 +89,43 @@ section iframe {
   section img {
     margin: 50px;
     height: 300px;
-    width: 500px; }
+    width: 500px;
+    padding: 0px; }
   section div {
     display: flex;
     flex-direction: row; } }
+
+form fieldset {
+  display: flex;
+  flex-direction: column;
+  padding: 30px; }
+  form fieldset textarea {
+    margin-bottom: 20px; }
+  form fieldset .fondo {
+    background-color: #848FA5; }
+
+form .texto {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 23px;
+  padding: 15px;
+  text-align: center;
+  color: #F9ECCC; }
+
+@media (min-width: 1024px) {
+  form fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 300px;
+    padding-bottom: 20px;
+    padding-top: 20px; }
+    form fieldset textarea {
+      margin-bottom: 20px; }
+  form .texto {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    padding: 15px;
+    text-align: center;
+    color: #F9ECCC; } }
 
 footer div {
   display: flex;
